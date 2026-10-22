@@ -1,0 +1,14 @@
+{
+  "name": "brawler-index",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static Brawl Stars fan database. Data and images are baked into the repo.",
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "sync:force": "node scripts/sync.mjs --force",
+    "dev": "npx serve public",
+    "deploy": "npx wrangler deploy"
+  },
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,65 @@
+{
+  "sample": true,
+  "generatedAt": "2026-10-22T08:37:00.000Z",
+  "source": "api.brawlapi.com (3-brawler sample; run `npm run sync` to replace)",
+  "count": 3,
+  "brawlers": [
+    {
+      "id": 16000110,
+      "name": "Vince",
+      "slug": "Vince",
+      "released": true,
+      "class": "Damage Dealer",
+      "rarity": { "name": "Mythic", "color": "#fe5e72" },
+      "description": "Vince tends to both the espresso machine and his many-legged friends, much to his customers' dismay. He walks slowly around his Creepy Café, careful not to step on any of his beloved bugs. His companions, Mocha and Doppio, follow him everywhere.",
+      "descHtml": "Vince tends to both the espresso machine and his many-legged friends, much to his customers' dismay.<br><br>He walks slowly around his Creepy Café, careful not to step on any of his beloved bugs. His companions, Mocha and Doppio, follow him everywhere.",
+      "image": "images/brawlers/16000110.png",
+      "starPowers": [
+        { "id": 23001450, "name": "Come To Papa", "description": "Nearby caterpillars crawl towards Vince.", "descHtml": "Nearby caterpillars crawl towards Vince.", "image": "images/star-powers/23001450.png" },
+        { "id": 23001451, "name": "Bug Bandage", "description": "Turning a caterpillar into a moth heals Vince for x.", "descHtml": "Turning a caterpillar into a moth heals Vince for <span class=\"hl\">x</span>.", "image": "images/star-powers/23001451.png" }
+      ],
+      "gadgets": [
+        { "id": 23001452, "name": "Hot Coffee", "description": "Vince throws an explosive cappuccino, dealing area damage.", "descHtml": "Vince throws an explosive cappuccino, dealing area damage.", "image": "images/gadgets/23001452.png" },
+        { "id": 23001453, "name": "Metamothosis", "description": "Vince turns all nearby caterpillars into moths, gaining an additional moth for each collected.", "descHtml": "Vince turns all nearby caterpillars into moths, gaining an additional moth for each collected.", "image": "images/gadgets/23001453.png" }
+      ]
+    },
+    {
+      "id": 16000109,
+      "name": "Cosmo",
+      "slug": "Cosmo",
+      "released": true,
+      "class": "Controller",
+      "rarity": { "name": "Mythic", "color": "#fe5e72" },
+      "description": "Cosmo is the lead astronomer at Starr Park's Observatory. Besides teaching visitors about the universe, he is constantly gazing at the stars searching for something...",
+      "descHtml": "Cosmo is the lead astronomer at Starr Park's Observatory. Besides teaching visitors about the universe, he is constantly gazing at the stars searching for something...",
+      "image": "images/brawlers/16000109.png",
+      "starPowers": [
+        { "id": 23001442, "name": "Precession", "description": "Increases the orbit speed of Cosmo's main attack by x%.", "descHtml": "Increases the orbit speed of Cosmo's main attack by <span class=\"hl\">x%</span>.", "image": "images/star-powers/23001442.png" },
+        { "id": 23001443, "name": "Ammo Attractor", "description": "Hitting an enemy with Cosmo's Super reloads 2 ammo.", "descHtml": "Hitting an enemy with Cosmo's Super reloads <span class=\"hl\">2</span> ammo.", "image": "images/star-powers/23001443.png" }
+      ],
+      "gadgets": [
+        { "id": 23001444, "name": "Planetary Pushback", "description": "Cosmo knocks enemies back from the targeted area.", "descHtml": "Cosmo knocks enemies back from the targeted area.", "image": "images/gadgets/23001444.png" },
+        { "id": 23001445, "name": "Telescope Trap", "description": "Cosmo uses his telescope to reveal an area for xs sec, including invisible enemies. Enemy Brawlers inside this area cannot use movement abilities (dashes, jumps, teleports, etc.).", "descHtml": "Cosmo uses his telescope to reveal an area for <span class=\"hl\">xs</span> sec, including invisible enemies. Enemy Brawlers inside this area cannot use movement abilities (dashes, jumps, teleports, etc.).", "image": "images/gadgets/23001445.png" }
+      ]
+    },
+    {
+      "id": 16000108,
+      "name": "Wendy",
+      "slug": "Wendy",
+      "released": true,
+      "class": "Support",
+      "rarity": { "name": "Mythic", "color": "#fe5e72" },
+      "description": "A smart scientist, with a nostalgic soul. After years working in shady corporate laboratories, she left to build Windstock and help the planet, not harm it!",
+      "descHtml": "A smart scientist, with a nostalgic soul. After years working in shady corporate laboratories, she left to build Windstock and help the planet, not harm it!",
+      "image": "images/brawlers/16000108.png",
+      "starPowers": [
+        { "id": 23001318, "name": "Slowing Shield", "description": "Enemies in Wendy's shield generator are slowed.", "descHtml": "Enemies in Wendy's shield generator are slowed.", "image": "images/star-powers/23001318.png" },
+        { "id": 23001319, "name": "Solar Shield", "description": "Wendy's shield generator gains an additional x health.", "descHtml": "Wendy's shield generator gains an additional <span class=\"hl\">x</span> health.", "image": "images/star-powers/23001319.png" }
+      ],
+      "gadgets": [
+        { "id": 23001320, "name": "Wind-Powered", "description": "Wendy's platform gives her a boost and she jumps a short distance.", "descHtml": "Wendy's platform gives her a boost and she jumps a short distance.", "image": "images/gadgets/23001320.png" },
+        { "id": 23001321, "name": "Green Grenade", "description": "Wendy launches a wind grenade that slows all enemies hit and stops them healing momentarily.", "descHtml": "Wendy launches a wind grenade that slows all enemies hit and stops them healing momentarily.", "image": "images/gadgets/23001321.png" }
+      ]
+    }
+  ]
+}

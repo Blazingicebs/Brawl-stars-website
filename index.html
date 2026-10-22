@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brawler Index — Brawl Stars Fan Database</title>
+  <meta name="description" content="Browse every Brawl Stars brawler with their star powers and gadgets.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <h1>Brawler<span>Index</span></h1>
+      <p class="sub">Every brawler, star power and gadget.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div id="sample-banner" class="banner" hidden>
+      Showing <strong>sample data</strong>. Run <code>npm run sync</code> to load every brawler and image.
+    </div>
+
+    <section class="controls" aria-label="Filters">
+      <input id="search" type="search" placeholder="Search brawlers, gadgets, star powers…" aria-label="Search">
+      <select id="sort" aria-label="Sort">
+        <option value="newest">Newest first</option>
+        <option value="oldest">Oldest first</option>
+        <option value="az">A → Z</option>
+        <option value="za">Z → A</option>
+      </select>
+      <label class="check"><input id="unreleased" type="checkbox"> Show unreleased</label>
+    </section>
+
+    <div class="chips" id="rarity-chips" aria-label="Rarity"></div>
+    <div class="chips" id="class-chips" aria-label="Class"></div>
+
+    <p id="count" class="count" aria-live="polite"></p>
+    <div id="grid" class="grid"></div>
+    <p id="empty" class="empty" hidden>No brawlers match your filters.</p>
+    <p id="error" class="empty" hidden>Couldn't load <code>data/brawlers.json</code>. Run <code>npm run sync</code> first.</p>
+  </main>
+
+  <dialog id="detail" aria-labelledby="d-name">
+    <button class="close" id="d-close" aria-label="Close">×</button>
+    <div class="d-head">
+      <div class="portrait" id="d-portrait"></div>
+      <div>
+        <h2 id="d-name"></h2>
+        <div class="badges" id="d-badges"></div>
+        <p id="d-desc" class="d-desc"></p>
+      </div>
+    </div>
+    <h3>Star Powers</h3>
+    <div class="abilities" id="d-sp"></div>
+    <h3>Gadgets</h3>
+    <div class="abilities" id="d-gd"></div>
+    <div id="d-extra"></div>
+  </dialog>
+
+  <footer class="wrap foot">
+    <p id="stamp"></p>
+    <p>Unofficial fan site. Not affiliated with, endorsed or sponsored by Supercell. Brawl Stars and all related content are trademarks of Supercell. Data from Brawlify.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
